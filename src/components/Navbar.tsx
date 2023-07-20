@@ -4,7 +4,7 @@ import React from "react";
 const Navbar = () => {
   const [open, setOpen] = React.useState(false);
   return (
-    <nav className="px-[6%] container py-5 flex justify-between items-center">
+    <nav className="px-[6%]  py-5 flex justify-between items-center border-b ">
       <div className="flex gap-12 items-center">
         <p className="tracking-wide font-bold text-2xl  uppercase">Off Tec</p>
         <div className="md:flex gap-8 text-sm items-center hidden">
@@ -16,7 +16,7 @@ const Navbar = () => {
       </div>
       <div className="md:flex gap-8 text-sm items-center hidden ">
         <p>
-          <button className="border-black border px-4 py-2 rounded-2xl font-semibold ">
+          <button className="border-black border px-4 py-2 rounded-full font-semibold ">
             Contact Us
           </button>
         </p>
