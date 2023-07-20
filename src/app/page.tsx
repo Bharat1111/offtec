@@ -13,10 +13,10 @@ export default function Home() {
         <div>
           <h1 className="text-7xl md:text-8xl font-semibold ">
             OffTec Digital
-            <div className="flex gap-x-48 flex-col md:flex-row">
+            <div className="flex gap-x-48 flex-col md:flex-row items-start justify-between md:items-center">
               <p className="">Agency </p>
               <Link
-                className="bg-black w-40 text-sm font-medium text-center text-white rounded-full inline-block px-8 py-4 mt-8"
+                className="bg-black justify-center text-sm font-medium text-center text-white rounded-full py-3  px-8 mt-8"
                 href="/contact"
               >
                 Lets Talk 👋🏻
