@@ -10,14 +10,17 @@ export default function Home() {
         </p>
         <div>
           <h1 className="text-7xl md:text-8xl font-semibold ">
-            Balerion Digital Agency{" "}
+            OffTec Digital
+            <div className="flex gap-x-48 flex-col md:flex-row">
+              <p className="">Agency </p>
+              <Link
+                className="bg-black w-40 text-sm font-medium text-center text-white rounded-full inline-block px-8 py-4 mt-8"
+                href="/contact"
+              >
+                Lets Talk 👋🏻
+              </Link>
+            </div>
           </h1>
-          <Link
-            className="bg-black text-sm font-medium text-white rounded-full inline-block px-8 py-4 mt-8"
-            href="/contact"
-          >
-            Lets Talk 👋🏻
-          </Link>
         </div>
       </div>
       <div>
