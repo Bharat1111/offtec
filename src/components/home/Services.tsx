@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
-const Sevices = () => {
+const Services = () => {
   return (
     <div className="-z-50">
       <Swiper
@@ -55,4 +55,4 @@ const Sevices = () => {
   );
 };
 
-export default Sevices;
+export default Services;

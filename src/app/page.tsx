@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import mainImg from "@/assets/main.jpg";
-import Sevices from "@/components/home/Sevices";
+import Services from "@/components/home/Services";
 
 export default function Home() {
   return (
@@ -40,7 +40,7 @@ export default function Home() {
             <span className="text-red-500">Limitation</span>
           </h2>
         </div>
-        <Sevices />
+        <Services />
       </div>
     </main>
   );
