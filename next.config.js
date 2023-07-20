@@ -3,7 +3,7 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        hostname: "e0.pxfuel.com",
+        hostname: "cdn.dribbble.com",
       },
     ],
   },
