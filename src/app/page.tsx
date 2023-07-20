@@ -1,7 +1,39 @@
 import Image from "next/image";
-
+import Link from "next/link";
+import mainImg from "@/assets/main.jpg";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24"></main>
+    <main className="flex  flex-col   ">
+      <div className="flex flex-col gap-2 py-8 md:py-14 px-[6%]">
+        <p className="text-gray-500 text-sm ml-2 ">
+          Introducing a new era of creativity
+        </p>
+        <div>
+          <h1 className="text-7xl md:text-8xl font-semibold ">
+            Balerion Digital Agency{" "}
+          </h1>
+          <Link
+            className="bg-black text-sm font-medium text-white rounded-full inline-block px-8 py-4 mt-8"
+            href="/contact"
+          >
+            Lets Talk 👋🏻
+          </Link>
+        </div>
+      </div>
+      <div>
+        <Image
+          src={mainImg}
+          alt="Picture of the author"
+          className="w-full aspect-[16/15] md:aspect-[16/6] object-cover"
+        />
+      </div>
+      <div className="flex flex-col gap-2 py-8 md:py-14 px-[6%]">
+        <p className="text-gray-500 text-sm  ">Best Service</p>
+        <h2 className="text-4xl font-semibold md:w-1/2">
+          Classify our foucs to break all kinds of {""}
+          <span className="text-red-500">Limitation</span>
+        </h2>
+      </div>
+    </main>
   );
 }
