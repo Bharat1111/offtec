@@ -24,7 +24,7 @@ const Pricing = () => {
           />
           <label
             htmlFor="toggle"
-            className="toggle-label block overflow-hidden h-6 rounded-full bg-primary border border-gray-400 cursor-pointer"
+            className="toggle-label block overflow-hidden h-6 rounded-full bg-white bg-primary border border-gray-400 cursor-pointer"
           ></label>
         </div>
         <p className="text-sm font-medium text-gray-400">Bill Yearly</p>
