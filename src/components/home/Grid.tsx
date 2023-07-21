@@ -34,7 +34,7 @@ const Grid = () => {
       </div>
       <Tabs
         defaultValue="account"
-        className="w-full items-center justify-center flex flex-wrap flex-row gap-8 "
+        className="w-full  flex flex-wrap flex-row gap-8 "
       >
         <TabsList className="bg-white p-0 flex ">
           <TabsTrigger
