@@ -39,7 +39,7 @@ const Pricing = () => {
             "Basic Dashboard",
             "All components included",
           ]}
-          color="bg-[#FFECB7]"
+          bgColor="bg-black"
         />
         <PriceCard
           price={56}
@@ -51,8 +51,7 @@ const Pricing = () => {
             "All components included",
             "Advance Insights",
           ]}
-          color="bg-[#d2e8ff]"
-          priceColor="text-[#0f8bff]"
+          bgColor="bg-black"
         />
         <PriceCard
           price={78}
@@ -63,9 +62,7 @@ const Pricing = () => {
             "Advance Dashboard",
             "All components included",
           ]}
-          color="bg-[#5a45e0]"
-          textColor="white"
-          borderColor="border-white"
+          bgColor="bg-black"
         />
       </div>
     </div>
