@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import mainImg from "@/assets/main.jpg";
 import Services from "@/components/home/Services";
+import Grid from "@/components/home/Grid";
 
 export default function Home() {
   return (
@@ -32,16 +33,8 @@ export default function Home() {
           className="w-full aspect-[16/15] md:aspect-[16/6] object-cover"
         />
       </div>
-      <div className="py-8 md:py-14 flex flex-col gap-8">
-        <div className="flex flex-col gap-2  px-[6%]">
-          <p className="text-gray-500 text-sm  ">Best Service</p>
-          <h2 className="text-4xl font-semibold md:w-1/2">
-            Classify our foucs to break all kinds of {""}
-            <span className="text-red-500">Limitation</span>
-          </h2>
-        </div>
-        <Services />
-      </div>
+      <Services />
+      <Grid />
     </main>
   );
 }
