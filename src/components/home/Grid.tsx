@@ -32,11 +32,8 @@ const Grid = () => {
       </div> */}
         </div>
       </div>
-      <Tabs
-        defaultValue="account"
-        className="w-full  flex flex-wrap flex-row gap-8 "
-      >
-        <TabsList className="bg-white p-0 flex ">
+      <Tabs defaultValue="account" className=" w-full  ">
+        <TabsList className="bg-white p-0     ">
           <TabsTrigger
             className=" text-sm !font-normal px-6 py-2  tracking-wide     border-gray-400 w-full data-[state=active]:text-white rounded-full data-[state=active]:border-black   data-[state=active]:bg-red-500   data-[state=active]:shadow-none outline-none cursor-default"
             value="allworks"

@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
@@ -12,7 +13,9 @@ const Navbar = () => {
             <p className="tracking-wide font-medium ">Services</p>
             <p className="tracking-wide font-medium ">Projects</p>
             <p className="tracking-wide font-medium ">Clients</p>
-            <p className="tracking-wide font-medium ">Pricing</p>
+            <Link href="/pricing" className="tracking-wide font-medium ">
+              Pricing
+            </Link>
           </div>
         </div>
         <div className="md:flex gap-8 text-sm items-center hidden ">
