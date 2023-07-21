@@ -62,7 +62,7 @@ const Services = () => {
       >
         {[1, 1, 1, 1, 1, 1, 1].map((item, i) => (
           <SwiperSlide
-            className={`border  
+            className={`border  rounded-lg
         ${i === 0 ? (current <= 2 ? "ml-[6%]" : "") : ""}
     
       
@@ -81,7 +81,7 @@ const Services = () => {
               height={"0"}
               src="https://cdn.dribbble.com/userupload/8711750/file/original-32e6bf008fc3e69f8c1655371ea3dac4.png?resize=752x"
               alt="Picture of the author"
-              className="w-full aspect-[1/1] object-cover"
+              className="w-full aspect-[1/1] object-cover rounded-b-lg"
             />
           </SwiperSlide>
         ))}
