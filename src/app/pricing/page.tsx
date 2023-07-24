@@ -8,14 +8,14 @@ const Pricing = () => {
       <p className="font-semibold text-2xl">
         Choose your plan and make your first ad in minutes
       </p>
-      <div className="flex gap-3">
+      <div className="flex gap-3 pb-6 md:pb-14">
         <p className="text-sm font-medium text-gray-400">Bill Monthly</p>
 
         <Switch />
 
         <p className="text-sm font-medium text-gray-400">Bill Yearly</p>
       </div>
-      <div className="flex mt-10 justify-between flex-col md:flex-row gap-8 md:gap-12">
+      <div className="flex justify-between flex-col md:flex-row gap-8 md:gap-12">
         <PriceCard
           price={23}
           title="Standard"
