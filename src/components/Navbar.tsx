@@ -33,7 +33,9 @@ const Navbar = () => {
     <>
       <nav className="px-[6%]  py-4 flex md:grid  md:grid-cols-12 justify-between z-50 items-center border-b sticky top-0 bg-white">
         <div className="flex gap-12 items-center col-span-2 ">
-          <p className="tracking-wide font-bold text-2xl">offtec</p>
+          <p className="tracking-wide font-bold text-2xl">
+            <Link href={`/`}>OffTec</Link>
+          </p>
         </div>
         <div className="md:flex gap-8 text-sm items-center justify-center hidden col-span-8">
           {links.map((link) => (

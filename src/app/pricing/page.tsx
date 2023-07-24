@@ -4,7 +4,7 @@ import { Switch } from "@/components/ui/switch";
 
 const Pricing = () => {
   return (
-    <div className="flex flex-col gap-2 w-full md:py-14 px-[6%] items-center">
+    <div className="flex flex-col gap-2 py-6 w-full md:py-14 px-[6%] items-center">
       <p className="font-semibold text-2xl">
         Choose your plan and make your first ad in minutes
       </p>
