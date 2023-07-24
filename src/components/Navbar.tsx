@@ -43,7 +43,7 @@ const Navbar = () => {
       <menu
         className={`flex fixed z-50 inset-0 bottom-0 bg-white border-t backdrop-blur-lg transform  transition-all duration-300 ease-in-out top-[4.5rem] ${
           open ? " translate-x-0" : " translate-x-full"
-        } flex-col  items-center justify-center md:hidden`}
+        } flex-col ml-auto items-center justify-center md:hidden`}
       >
         <ul className="flex flex-col gap-4 text-xl text-center mb-20">
           <li className="tracking-wide font-medium ">Services</li>
