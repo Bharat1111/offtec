@@ -35,31 +35,31 @@ const Grid = () => {
       <Tabs defaultValue="allworks" className=" w-full  ">
         <TabsList className="bg-white p-0 w-full flex-wrap md:flex-nowrap flex items-start h-auto gap-3 justify-start ">
           <TabsTrigger
-            className=" text-sm !font-normal px-6 py-2  tracking-wide       border-gray-400  data-[state=active]:text-white rounded-full data-[state=active]:border-black   data-[state=active]:bg-red-500   data-[state=active]:shadow-none outline-none cursor-default"
+            className=" text-sm !font-normal px-6 py-2  tracking-wide       border-gray-400  data-[state=active]:text-white rounded-full data-[state=active]:border-black   data-[state=active]:bg-black   data-[state=active]:shadow-none outline-none cursor-default"
             value="allworks"
           >
             All works
           </TabsTrigger>
           <TabsTrigger
-            className=" text-sm !font-normal px-6 py-2  tracking-wide     border-gray-400  data-[state=active]:text-white rounded-full data-[state=active]:border-black   data-[state=active]:bg-red-500   data-[state=active]:shadow-none outline-none cursor-default"
+            className=" text-sm !font-normal px-6 py-2  tracking-wide     border-gray-400  data-[state=active]:text-white rounded-full data-[state=active]:border-black   data-[state=active]:bg-black   data-[state=active]:shadow-none outline-none cursor-default"
             value="UI/UX Design"
           >
             UI/UX Design
           </TabsTrigger>
           <TabsTrigger
-            className=" text-sm !font-normal px-6 py-2  tracking-wide     border-gray-400  data-[state=active]:text-white rounded-full data-[state=active]:border-black   data-[state=active]:bg-red-500   data-[state=active]:shadow-none outline-none cursor-default"
+            className=" text-sm !font-normal px-6 py-2  tracking-wide     border-gray-400  data-[state=active]:text-white rounded-full data-[state=active]:border-black   data-[state=active]:bg-black   data-[state=active]:shadow-none outline-none cursor-default"
             value="BrandIdentity"
           >
             Brand Identity
           </TabsTrigger>
           <TabsTrigger
-            className=" text-sm !font-normal px-6 py-2  tracking-wide     border-gray-400  data-[state=active]:text-white rounded-full data-[state=active]:border-black   data-[state=active]:bg-red-500   data-[state=active]:shadow-none outline-none cursor-default"
+            className=" text-sm !font-normal px-6 py-2  tracking-wide     border-gray-400  data-[state=active]:text-white rounded-full data-[state=active]:border-black   data-[state=active]:bg-black   data-[state=active]:shadow-none outline-none cursor-default"
             value="illustration"
           >
             Illustration
           </TabsTrigger>
           <TabsTrigger
-            className=" text-sm !font-normal px-6 py-2  tracking-wide     border-gray-400  data-[state=active]:text-white rounded-full data-[state=active]:border-black   data-[state=active]:bg-red-500   data-[state=active]:shadow-none outline-none cursor-default"
+            className=" text-sm !font-normal px-6 py-2  tracking-wide     border-gray-400  data-[state=active]:text-white rounded-full data-[state=active]:border-black   data-[state=active]:bg-black   data-[state=active]:shadow-none outline-none cursor-default"
             value="Development"
           >
             Development
