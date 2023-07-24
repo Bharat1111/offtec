@@ -5,6 +5,9 @@ const nextConfig = {
       {
         hostname: "cdn.dribbble.com",
       },
+      {
+        hostname: "images.unsplash.com",
+      },
     ],
   },
 };

@@ -6,9 +6,9 @@ const Navbar = () => {
   const [open, setOpen] = React.useState(false);
   return (
     <>
-      <nav className="px-[6%]  py-4 grid grid-cols-12 justify-between z-50 items-center border-b sticky top-0 bg-white">
+      <nav className="px-[6%]  py-4 flex md:grid  md:grid-cols-12 justify-between z-50 items-center border-b sticky top-0 bg-white">
         <div className="flex gap-12 items-center col-span-2 ">
-          <p className="tracking-wide font-bold text-2xl  ">offtec</p>
+          <p className="tracking-wide font-bold text-2xl">offtec</p>
         </div>
         <div className="md:flex gap-8 text-sm items-center justify-center hidden col-span-8">
           <p className="tracking-wide font-medium ">Services</p>
@@ -19,9 +19,12 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="md:flex gap-8 text-sm items-end justify-end hidden col-span-2">
-          <button className="bg-gray-100 border px-8 py-2 rounded-full font-semibold ">
+          <Link
+            href={`/hireus`}
+            className="bg-gray-100 border px-8 py-2 rounded-full font-semibold hover:bg-primary hover:text-white transition-all duration-300 ease-in-out hover:drop-shadow-xl"
+          >
             HIRE US!
-          </button>
+          </Link>
         </div>
         <button
           onClick={() => setOpen(!open)}
@@ -41,7 +44,7 @@ const Navbar = () => {
         </button>
       </nav>
       <menu
-        className={`flex fixed z-50 inset-0 bottom-0 bg-white border-t backdrop-blur-lg transform  transition-all duration-300 ease-in-out top-[4.5rem] ${
+        className={`flex fixed z-50 inset-0 bottom-0 bg-white border-t backdrop-blur-lg transform  transition-all duration-300 ease-in-out top-[4rem] ${
           open ? " translate-x-0" : " translate-x-full"
         } flex-col  items-center justify-center md:hidden`}
       >
