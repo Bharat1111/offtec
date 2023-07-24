@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
-import React from "react";
-
+import React, { useEffect } from "react";
+import { usePathname } from "next/navigation";
 const Navbar = () => {
   const [open, setOpen] = React.useState(false);
   const links = [
@@ -22,6 +22,12 @@ const Navbar = () => {
       path: "/pricing",
     },
   ];
+
+  const pathname = usePathname();
+
+  useEffect(() => {
+    setOpen(false);
+  }, [pathname]);
 
   return (
     <>
@@ -70,7 +76,7 @@ const Navbar = () => {
           open ? " translate-x-0" : " translate-x-full"
         } flex-col ml-auto items-center justify-center md:hidden`}
       >
-        <ul className="flex flex-col gap-4 text-xl text-center mb-20">
+        <ul className="flex flex-col gap-6 text-xl text-center mb-20">
           {links.map((link) => (
             <li key={link.name} className="tracking-wide font-medium ">
               <Link href={link.path}>{link.name}</Link>
