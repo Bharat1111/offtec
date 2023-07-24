@@ -6,24 +6,22 @@ const Navbar = () => {
   const [open, setOpen] = React.useState(false);
   return (
     <>
-      <nav className="px-[6%]  py-5 flex justify-between z-50 items-center border-b sticky top-0 bg-white">
-        <div className="flex gap-12 items-center">
-          <p className="tracking-wide font-bold text-2xl  uppercase">Off Tec</p>
-          <div className="md:flex gap-8 text-sm items-center hidden">
-            <p className="tracking-wide font-medium ">Services</p>
-            <p className="tracking-wide font-medium ">Projects</p>
-            <p className="tracking-wide font-medium ">Clients</p>
-            <Link href="/pricing" className="tracking-wide font-medium ">
-              Pricing
-            </Link>
-          </div>
+      <nav className="px-[6%]  py-4 grid grid-cols-12 justify-between z-50 items-center border-b sticky top-0 bg-white">
+        <div className="flex gap-12 items-center col-span-2 ">
+          <p className="tracking-wide font-bold text-2xl  ">offtec</p>
         </div>
-        <div className="md:flex gap-8 text-sm items-center hidden ">
-          <p>
-            <button className="border-black border px-4 py-2 rounded-full font-semibold ">
-              Contact Us
-            </button>
-          </p>
+        <div className="md:flex gap-8 text-sm items-center justify-center hidden col-span-8">
+          <p className="tracking-wide font-medium ">Services</p>
+          <p className="tracking-wide font-medium ">Projects</p>
+          <p className="tracking-wide font-medium ">Clients</p>
+          <Link href="/pricing" className="tracking-wide font-medium ">
+            Pricing
+          </Link>
+        </div>
+        <div className="md:flex gap-8 text-sm items-end justify-end hidden col-span-2">
+          <button className="bg-gray-100 border px-8 py-2 rounded-full font-semibold ">
+            HIRE US!
+          </button>
         </div>
         <button
           onClick={() => setOpen(!open)}
