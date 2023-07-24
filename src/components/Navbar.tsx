@@ -41,7 +41,7 @@ const Navbar = () => {
         </button>
       </nav>
       <menu
-        className={`flex fixed z-50 inset-0 bottom-0 bg-white border-t backdrop-blur-lg transform  transition-all duration-300 ease-in-out top-[4.5rem] ${
+        className={`flex fixed z-50 inset-0 bottom-0 bg-white border-t backdrop-blur-lg transform  transition-all duration-300 ease-in-out top-[4rem] ${
           open ? " translate-x-0" : " translate-x-full"
         } flex-col ml-auto items-center justify-center md:hidden`}
       >
