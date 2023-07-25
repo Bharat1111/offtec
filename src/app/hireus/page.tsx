@@ -27,7 +27,7 @@ const HireUs = () => {
         </div> */}
       </div>
       <div className="px-6 md:px-[6%] py-6 md:py-12 grid-cols-12 flex-col-reverse flex md:grid gap-10 md:gap-6">
-        <div className="col-span-12 md:col-span-3 flex flex-col gap-6 md:gap-10 justify-between mb-0 md:mb-24">
+        <div className="col-span-12 md:col-span-3 flex flex-col gap-6 md:gap-10 justify-between mb-0 md:mb-32">
           <div className="flex items-center md:items-start md:flex-col justify-between md:gap-10">
             <div className="flex flex-col gap-1">
               <p className="  tracking-wide text-gray-500  uppercase">
