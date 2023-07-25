@@ -7,6 +7,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
+import Input from "@/components/Input";
 const HireUs = () => {
   return (
     <main>
@@ -131,22 +132,8 @@ const HireUs = () => {
             </RadioGroup>
           </div>
           <div className="flex gap-6 flex-col md:flex-row">
-            <div className="relative">
-              <p className="text-sm font-medium  text-gray-500  ">Your Name</p>
-              <input
-                type="text"
-                className="w-full border-gray-100 border-b-2 border-muted  px-6 py-2 outline-none focus:border-black text-gray-400"
-              />
-              <div className="absolute bottom-0 left-0 right-full hover:right-0 bg-black h-1"></div>
-            </div>
-
-            <div>
-              <p className="text-sm font-medium  text-gray-500  ">Your Email</p>
-              <input
-                type="text"
-                className="w-full border-gray-100 border-b-2 border-muted  px-6 py-2 outline-none focus:border-black text-gray-400"
-              />
-            </div>
+            <Input label="Your Name" name="name" />
+            <Input label="Your Email" name="email" />
           </div>
           <div>
             <p className="text-sm font-medium  text-gray-500  ">
