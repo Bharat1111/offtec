@@ -90,7 +90,7 @@ const Navbar = () => {
               href={`/hireus`}
               className="border-black border text-lg  px-6 py-2 rounded-full font-semibold"
             >
-              Contact Us
+              Hire Us
             </Link>
           </li>
         </ul>
