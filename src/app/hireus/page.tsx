@@ -41,21 +41,21 @@ const HireUs = () => {
               <p className="  tracking-wide text-gray-500  ">Follow</p>
               <div className="flex gap-3 items-center">
                 <Link
-                  href="https://www.instagram.com/offtec/"
+                  href="https://www.instagram.com/offtecmedia/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <AiFillInstagram className="text-xl " />
                 </Link>
                 <Link
-                  href="https://www.instagram.com/offtec/"
+                  href="https://www.instagram.com/offtecmedia/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <AiOutlineTwitter className="text-xl " />
                 </Link>
                 <Link
-                  href="https://www.instagram.com/offtec/"
+                  href="https://www.instagram.com/offtecmedia/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
