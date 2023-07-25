@@ -1,10 +1,12 @@
 import React from "react";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Image from "next/image";
 
 const Client = () => {
   return (
-    <div className="px-[6%] py-3 min-h-[500px] flex flex-col bg-black text-white justify-between">
+    <div
+      className="px-[6%] py-3 min-h-[90vh] flex flex-col bg-black text-white justify-between"
+      id="clients"
+    >
       <h1 className="text-5xl uppercase">
         "Off Tec has come through for me time and time again. Their attention to
         detail and speed is unmatched."
