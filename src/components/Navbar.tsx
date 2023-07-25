@@ -62,12 +62,12 @@ const Navbar = () => {
         >
           {/* three lines */}
           <div
-            className={`h-1 bg-black mb-1 transform transition-all duration-500 ease-in-out
+            className={`h-1 bg-black mb-1 rounded-sm transform transition-all duration-500 ease-in-out
         ${open ? "-rotate-45 translate-y-2 w-6" : "w-9"}
         `}
           ></div>
           <div
-            className={`h-1 w-6 bg-black mb-1 transform transition-all duration-500 ease-in-out
+            className={`h-1 w-6 bg-black mb-1 rounded-sm transform transition-all duration-500 ease-in-out
             ${open ? "rotate-45 -translate-y-1" : ""}
         `}
           ></div>

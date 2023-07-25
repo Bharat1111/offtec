@@ -26,7 +26,7 @@ const HireUs = () => {
         </div> */}
       </div>
       <div className="px-6 md:px-[6%] py-6 md:py-12 grid-cols-12 flex-col-reverse flex md:grid gap-10 md:gap-6">
-        <div className="col-span-12 md:col-span-3 flex flex-col gap-6 md:gap-10 justify-between">
+        <div className="col-span-12 md:col-span-3 flex flex-col gap-6 md:gap-10 justify-between mb-0 md:mb-24">
           <div className="flex items-center md:items-start md:flex-col justify-between md:gap-10">
             <div className="flex flex-col gap-1">
               <p className="  tracking-wide text-gray-500  uppercase">
@@ -130,13 +130,35 @@ const HireUs = () => {
               )}
             </RadioGroup>
           </div>
-          <div className="flex gap-6">
+          <div className="flex gap-6 flex-col md:flex-row">
             <div>
               <p className="text-sm font-medium  text-gray-500  ">Your Name</p>
               <input
                 type="text"
-                className="w-full border-gray-100 border-b-2 border-muted  px-6 py-2 outline-none focus:border-black text-gray-400"
+                className="w-full border-gray-100 border-b-2 border-muted  px-6 py-2 outline-none text-gray-400"
               />
+
+              {/* .link{
+  position: relative;
+}
+
+.link:after{
+  content: '';
+  position: absolute;
+  width: 0; height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #fff;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+ 
+.link:hover:after{
+  width: 100%;
+  left: 0;
+  background: #fff;
+} */}
             </div>
 
             <div>
