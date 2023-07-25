@@ -8,8 +8,8 @@ const Client = () => {
       id="clients"
     >
       <h1 className="text-5xl uppercase">
-        "Off Tec has come through for me time and time again. Their attention to
-        detail and speed is unmatched."
+        &quot;Off Tec has come through for me time and time again. Their
+        attention to detail and speed is unmatched.&quot;
       </h1>
       <div>
         <Image

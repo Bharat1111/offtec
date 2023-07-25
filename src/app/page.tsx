@@ -19,7 +19,7 @@ export default function Home() {
               <p className="">Agency </p>
               <Link
                 className="bg-black justify-center text-sm font-medium text-center text-white rounded-full py-3  px-8 mt-8"
-                href="/contact"
+                href="/hireus"
               >
                 Lets Talk 👋🏻
               </Link>
