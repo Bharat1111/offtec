@@ -136,13 +136,7 @@ const HireUs = () => {
             <Input label="Your Email" name="email" />
           </div>
           <div>
-            <p className="text-sm font-medium  text-gray-500  ">
-              Project Details (Optional)
-            </p>
-            <input
-              type="text"
-              className="w-full border-gray-100 border-b-2 border-muted  px-6 py-4 outline-none focus:border-black text-gray-400"
-            />
+            <Input label="Project Details (Optional)" name="details" />
           </div>
 
           <div className="flex justify-center">
