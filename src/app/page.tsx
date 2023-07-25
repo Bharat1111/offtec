@@ -3,6 +3,7 @@ import Link from "next/link";
 import mainImg from "@/assets/main.jpg";
 import Services from "@/components/home/Services";
 import Grid from "@/components/home/Grid";
+import Client from "@/components/Client";
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
       </div>
       <Services />
       <Grid />
+      <Client />
     </main>
   );
 }
