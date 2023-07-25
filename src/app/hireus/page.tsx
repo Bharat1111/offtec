@@ -139,11 +139,9 @@ const HireUs = () => {
             <Input label="Project Details (Optional)" name="details" />
           </div>
 
-          <div className="flex justify-center">
-            <button className="bg-black text-white p-8 rounded-full">
-              Send
-            </button>
-          </div>
+          <button className="bg-black text-white flex items-center justify-center h-28 w-28 rounded-full  mx-auto">
+            Send
+          </button>
         </div>
       </div>
     </main>
