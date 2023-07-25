@@ -15,7 +15,7 @@ const Navbar = () => {
     },
     {
       name: "Clients",
-      path: "/clients",
+      path: "#clients",
     },
     {
       name: "Pricing",
