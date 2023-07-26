@@ -10,7 +10,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import Input from "@/components/Input";
 const HireUs = () => {
   return (
-    <main>
+    <main className="container">
       <div className="relative">
         <Image
           alt="hire us"
