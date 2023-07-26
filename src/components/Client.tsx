@@ -24,10 +24,10 @@ const Client = () => {
   const [active, setActive] = useState<"Jason" | "Steve" | "David">("Jason");
   return (
     <div
-      className="px-[6%] py-[5%] min-h-[90vh] flex flex-col bg-black text-white justify-between"
+      className="px-[6%] py-10  md:py-16  md:min-h-[80dvh] gap-10 flex flex-col bg-black text-white justify-between"
       id="clients"
     >
-      <h1 className="text-5xl uppercase font-medium">
+      <h1 className="text-4xl md:text-5xl uppercase font-medium">
         {content[active].quote}
       </h1>
       <div>
@@ -41,7 +41,7 @@ const Client = () => {
             // blur when inactive
             className={`rounded-full mb-10 ${
               active === "Jason" ? "" : "opacity-50"
-            } hover:opacity-100 cursor-pointer`}
+            } hover:opacity-100 cursor-pointer w-20 h-20`}
             loading="lazy"
             width={70}
             height={70}
@@ -54,7 +54,7 @@ const Client = () => {
             alt="Steve"
             className={`rounded-full mb-10 ${
               active === "Steve" ? "" : "opacity-50"
-            } hover:opacity-100 cursor-pointer`}
+            } hover:opacity-100 cursor-pointer w-20 h-20`}
             loading="lazy"
             width={70}
             height={70}
@@ -67,7 +67,7 @@ const Client = () => {
             alt="David"
             className={`rounded-full mb-10 ${
               active === "David" ? "" : "opacity-50"
-            } hover:opacity-100 cursor-pointer`}
+            } hover:opacity-100 cursor-pointer w-20 h-20`}
             loading="lazy"
             width={70}
             height={70}
