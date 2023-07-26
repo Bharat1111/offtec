@@ -30,8 +30,8 @@ const Navbar = () => {
   }, [pathname]);
 
   return (
-    <>
-      <nav className="px-[6%]  py-4 flex md:grid  md:grid-cols-12 justify-between z-50 items-center border-b sticky top-0 bg-white">
+    <header className="border-b  sticky top-0 bg-white z-50">
+      <nav className="px-[6%] container  py-4 flex md:grid  md:grid-cols-12 justify-between  items-center  ">
         <div className="flex gap-12 items-center col-span-2 ">
           <p className="tracking-wide font-bold text-2xl">
             <Link href={`/`}>OffTec</Link>
@@ -42,7 +42,14 @@ const Navbar = () => {
             <Link
               href={link.path}
               key={link.name}
-              className="tracking-wide font-medium "
+              className={`tracking-wide font-medium hover:border-b-2  transition-all duration-300 ease-in-out 
+              ${
+                pathname === link.path
+                  ? "text-black border-b-2 border-black"
+                  : "text-gray-500"
+              }
+              
+              `}
             >
               {link.name}
             </Link>
@@ -95,7 +102,7 @@ const Navbar = () => {
           </li>
         </ul>
       </menu>
-    </>
+    </header>
   );
 };
 

@@ -9,7 +9,7 @@ import ServicesWrapper from "@/components/Services";
 
 const Server = () => {
   return (
-    <main className=" py-3 md:py-10 px-[6%] flex flex-col md:flex-row gap-10">
+    <main className=" py-3 md:py-10 px-[6%] flex flex-col md:flex-row gap-10 container">
       <ServicesWrapper>
         <AccordionItem value="Front End">
           <AccordionTrigger>Front End</AccordionTrigger>

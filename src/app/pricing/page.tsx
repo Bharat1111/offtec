@@ -4,10 +4,10 @@ import { Switch } from "@/components/ui/switch";
 
 const Pricing = () => {
   return (
-    <div className="flex flex-col gap-8 py-6 w-full md:py-12 px-[6%] items-center">
-      <p className="font-semibold text-3xl">
+    <main className="flex flex-col gap-8 py-6 w-full md:py-12 px-[6%] items-center">
+      <h1 className="font-semibold text-3xl">
         Choose your plan and make your first ad in minutes
-      </p>
+      </h1>
       <div className="flex gap-3  ">
         <p className=" font-medium text-gray-400">Bill Monthly</p>
 
@@ -53,7 +53,7 @@ const Pricing = () => {
           bgColor="bg-black"
         />
       </div>
-    </div>
+    </main>
   );
 };
 

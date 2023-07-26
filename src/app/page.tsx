@@ -7,7 +7,7 @@ import Client from "@/components/Client";
 
 export default function Home() {
   return (
-    <main className="flex  flex-col   ">
+    <main className="flex  flex-col  container ">
       <div className="flex flex-col gap-2 py-8 md:py-14 px-[6%]">
         <p className="text-gray-500 text-sm ml-2 ">
           Introducing a new era of creativity
