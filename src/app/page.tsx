@@ -27,11 +27,11 @@ export default function Home() {
           </h1>
         </div>
       </div>
-      <div>
+      <div className="2xl:px-[6%]">
         <Image
           src={mainImg}
           alt="Picture of the author"
-          className="w-full aspect-[16/15] md:aspect-[16/6] object-cover"
+          className="w-full aspect-[16/15] md:aspect-[16/6]  object-cover 2xl:rounded-lg"
         />
       </div>
       <Services />

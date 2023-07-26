@@ -9,7 +9,7 @@ const Services = () => {
   const ref = React.useRef<any>(null);
   const [current, setCurrent] = React.useState(0);
   return (
-    <div className="py-8 md:py-14 flex flex-col gap-8">
+    <div className="py-8 md:py-14 flex flex-col gap-14">
       <div className="flex flex-col gap-2  px-[6%]">
         <p className="text-gray-500 text-sm  ">Best Service</p>
         <div className="flex justify-between gap-3 md:gap-6 md:items-center flex-col md:flex-row">

@@ -24,7 +24,7 @@ const Client = () => {
   const [active, setActive] = useState<"Jason" | "Steve" | "David">("Jason");
   return (
     <div
-      className="px-[6%] py-10 md:py-[5%] md:min-h-[90vh] gap-10 flex flex-col bg-black text-white justify-between"
+      className="px-[6%] py-10 md:py-[5%] md:min-h-[90dvh] 2xl:min-h-[50dvh] 2xl:rounded-lg gap-10 flex flex-col bg-black text-white justify-between"
       id="clients"
     >
       <h1 className="text-4xl md:text-5xl uppercase font-medium">
