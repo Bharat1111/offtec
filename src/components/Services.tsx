@@ -15,11 +15,12 @@ const ServicesWrapper = ({ children }: { children: React.ReactNode }) => {
     | "Perform ance optimiz ation"
     | "Animat ion2"
   >("Front End");
+  console.log(active);
   return (
     <>
       <div className="md:w-6/12 hidden md:block">
         <h1 className="text-8xl  font-bold mb-6 uppercase break-words">
-          {active}
+          {active ? active : "Front End"}
         </h1>
       </div>
       <div className="md:w-6/12">
