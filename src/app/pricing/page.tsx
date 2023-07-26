@@ -4,18 +4,18 @@ import { Switch } from "@/components/ui/switch";
 
 const Pricing = () => {
   return (
-    <div className="flex flex-col gap-2 py-6 w-full md:py-12 px-[6%] items-center">
-      <p className="font-semibold text-2xl">
+    <div className="flex flex-col gap-8 py-6 w-full md:py-12 px-[6%] items-center">
+      <p className="font-semibold text-3xl">
         Choose your plan and make your first ad in minutes
       </p>
-      <div className="flex gap-3 pb-6 md:pb-12">
-        <p className="text-sm font-medium text-gray-400">Bill Monthly</p>
+      <div className="flex gap-3  ">
+        <p className=" font-medium text-gray-400">Bill Monthly</p>
 
         <Switch />
 
-        <p className="text-sm font-medium text-gray-400">Bill Yearly</p>
+        <p className=" font-medium text-gray-400">Bill Yearly</p>
       </div>
-      <div className="flex justify-between flex-col md:flex-row gap-8 md:gap-12">
+      <div className="flex  flex-col w-full md:flex-row gap-8 md:gap-8 items-center justify-center">
         <PriceCard
           price={23}
           title="Standard"
@@ -23,6 +23,7 @@ const Pricing = () => {
           list={[
             "Single project user",
             "Basic Dashboard",
+            "All components included",
             "All components included",
           ]}
           bgColor="bg-black"
@@ -46,6 +47,7 @@ const Pricing = () => {
           list={[
             "Unlimited project user",
             "Advance Dashboard",
+            "All components included",
             "All components included",
           ]}
           bgColor="bg-black"
