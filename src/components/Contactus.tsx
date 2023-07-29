@@ -129,7 +129,7 @@ const Contactus = () => {
           name="email"
           register={register}
           required={true}
-          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+          pattern={/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/}
         />
       </div>
       <div>
