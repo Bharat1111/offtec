@@ -26,7 +26,7 @@ const Input = ({
         id={name}
         onFocus={() => setFocus(true)}
         onBlur={() => setFocus(false)}
-        className="w-full border-gray-100 border-b-2 border-muted  px-3 py-2 outline-none  text-gray-400"
+        className="w-full border-gray-100 border-b-2 border-muted  px-3 py-2 outline-none  "
       />
       <div
         className={`absolute bottom-0 left-0   bg-black h-[1px] transition-all duration-300

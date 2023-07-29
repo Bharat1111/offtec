@@ -143,7 +143,7 @@ const Contactus = () => {
       <button
         type="submit"
         className={`bg-black hover:shadow-inner
-                    
+                    transition duration-500 ease-in-out
                     ${
                       success
                         ? "bg-green-500 hover:bg-green-500"
