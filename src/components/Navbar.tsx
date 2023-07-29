@@ -2,6 +2,7 @@
 import Link from "next/link";
 import React, { useEffect } from "react";
 import { usePathname } from "next/navigation";
+import HireUs from "./HireUs";
 const Navbar = () => {
   const [open, setOpen] = React.useState(false);
   const links = [
@@ -56,12 +57,7 @@ const Navbar = () => {
           ))}
         </div>
         <div className="md:flex gap-8 text-sm items-end justify-end hidden col-span-2">
-          <Link
-            href={`/hireus`}
-            className="bg-gray-100 border px-8 py-2 rounded-full font-semibold hover:bg-primary hover:text-white transition-all duration-300 ease-in-out hover:drop-shadow-xl"
-          >
-            HIRE US!
-          </Link>
+          <HireUs />
         </div>
         <button
           onClick={() => setOpen(!open)}
