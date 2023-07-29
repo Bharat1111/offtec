@@ -14,8 +14,9 @@ const ServicesWrapper = ({ children }: { children: React.ReactNode }) => {
     | "Landing pages"
     | "Perform ance optimiz ation"
     | "Animat ion2"
+    | "Services"
     | ""
-  >("Front End");
+  >("Services");
   console.log(active);
   return (
     <>
