@@ -13,6 +13,7 @@ const Contactus = () => {
     register,
     control,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm();
 
@@ -25,6 +26,7 @@ const Contactus = () => {
       const docRef = await addDoc(collection(db, "contactus"), data);
       console.log("Document written with ID: ", docRef.id);
       setSuccess(true);
+      reset();
       setLoading(false);
       setTimeout(() => {
         setSuccess(false);
