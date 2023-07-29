@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { AiOutlineUser } from "react-icons/ai";
 import { BsArrowRightShort } from "react-icons/bs";
 import {
   FaTwitter,
@@ -10,91 +11,39 @@ import {
 
 const Footer = () => {
   return (
-    <div className="px-[6%] container pt-5 bg-black text-white">
-      <div className="flex justify-between pb-10 flex-col md:flex-row gap-8">
-        <div className="flex flex-col justify-center">
-          <p className="tracking-wide font-semibold text-2xl">
-            Subscribe to our <p>newsletter</p>
-          </p>
-          <div className="flex pt-5 ">
-            <input
-              type="text"
-              placeholder="Email address"
-              className="bg-black border-white outline-none border p-2 text-md w-64"
-            />
-            <button className="p-3 bg-white text-black">
-              <BsArrowRightShort className="  text-2xl" />
-            </button>
-          </div>
+    <footer className="px-[6%] container bg-black py-8   items-center  grid grid-cols-12   justify-between  text-white border-t border-t-slate-100">
+      <h4 className="text-xl font-bold col-span-2 ">OffTec</h4>
+
+      <div className="flex gap-3 col-span-8  justify-center">
+        <div className="border px-6 text-xs py-1.5 flex gap-3 items-center rounded-full">
+          <AiOutlineUser className="text-xl" />
+          <input
+            type="text"
+            placeholder="Enter your email"
+            className="outline-none bg-transparent w-full"
+          />
         </div>
-        <div className="flex flex-col gap-y-4">
-          <p className="tracking-wide font-semibold text-xl ">Services</p>
-          <p className="text-sm text-gray-400">Email Marketing</p>
-          <p className="text-sm text-gray-400">SEO</p>
-          <p className="text-sm text-gray-400">Business Strategy</p>
-          <p className="text-sm text-gray-400">Print Materials</p>
-        </div>
-        <div className="flex flex-col gap-y-4">
-          <p className="tracking-wide font-semibold text-xl ">About</p>
-          <p className="text-sm text-gray-400">Our Story</p>
-          <p className="text-sm text-gray-400">Our Team</p>
-          <p className="text-sm text-gray-400">Benefits</p>
-          <p className="text-sm text-gray-400">Carrers</p>
-        </div>
-        <div className="flex flex-col gap-y-4">
-          <p className="tracking-wide font-semibold text-xl ">Navigation</p>
-          <p className="text-sm text-gray-400">Email Marketing</p>
-          <p className="text-sm text-gray-400">Campaigns</p>
-          <p className="text-sm text-gray-400">Branding</p>
-          <p className="text-sm text-gray-400">Offline</p>
-        </div>
-        <div className="flex flex-col gap-y-4">
-          <p className="tracking-wide font-semibold text-xl ">Help</p>
-          <p className="text-sm text-gray-400">FAQs</p>
-          <p className="text-sm text-gray-400">Contact Us</p>
-        </div>
+        <button className="bg-white text-black px-6 py-1.5 rounded-full flex gap-2 items-center">
+          <p className="text-xs font-semibold">Subscribe</p>
+          {/* <BsArrowRightShort /> */}
+        </button>
       </div>
-      {/* make a hr using div */}
-      <div className="border-b border-gray-400"></div>
-      <div className="py-10 flex justify-between flex-col md:flex-row gap-6">
-        <div>
-          <div className="flex gap-12">
-            <Link
-              href="https://www.instagram.com/offtecmedia/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaFacebookF className=" w-6 h-6" />
-            </Link>
-            <Link
-              href="https://www.instagram.com/offtecmedia/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaTwitter className=" w-6 h-6" />
-            </Link>
-            <Link
-              href="https://www.instagram.com/offtecmedia/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaLinkedinIn className=" w-6 h-6" />
-            </Link>
-            <Link
-              href="https://www.instagram.com/offtecmedia/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaInstagram className=" w-6 h-6" />
-            </Link>
-          </div>
-        </div>
-        <div className="text-md font-semibold text-gray-400">
-          © 2023 <span className="">OFF TECH</span>{" "}
-          <span className="text-sm text-gray-400">| All Rights Reserved</span>
-        </div>
+
+      <div className="flex gap-3 col-span-2">
+        <Link href={`/`} className="bg-white text-black p-2 rounded-full">
+          <FaTwitter />
+        </Link>
+        <Link href={`/`} className="bg-white text-black p-2 rounded-full">
+          <FaInstagram />
+        </Link>
+        <Link href={`/`} className="bg-white text-black p-2 rounded-full">
+          <FaLinkedinIn />
+        </Link>
+        <Link href={`/`} className="bg-white text-black p-2 rounded-full">
+          <FaFacebookF />
+        </Link>
       </div>
-    </div>
+    </footer>
   );
 };
 
