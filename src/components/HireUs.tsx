@@ -29,7 +29,7 @@ const HireUs = () => {
       <div
         className={`fixed -z-[0]
         
-        w-8 h-8 rounded-full bg-black blur-lg transition-all  duration-0 ease-in-out hover:bg-primary
+        w-8 h-1 rounded-full bg-black blur-lg transition-all  duration-0 ease-in-out hover:bg-primary
         ${hovered ? "opacity-100" : "opacity-0"}
         `}
         style={{
