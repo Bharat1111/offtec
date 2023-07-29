@@ -109,7 +109,7 @@ const Footer = () => {
         </p>
       </div>
 
-      <div className="flex flex-col col-span-2">
+      <div className="flex flex-col col-span-2 justify-between">
         <div className="flex gap-3">
           <Link href={`/`} className="bg-white text-black p-2 rounded-full">
             <FaTwitter />
