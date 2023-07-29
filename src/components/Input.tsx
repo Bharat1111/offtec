@@ -1,7 +1,19 @@
 "use client";
 import React from "react";
 
-const Input = ({ label, name }: { label: string; name: string }) => {
+const Input = ({
+  label,
+  name,
+  register,
+  required = false,
+  pattern,
+}: {
+  label: string;
+  name: string;
+  register?: any;
+  required?: boolean;
+  pattern?: any;
+}) => {
   const [focus, setFocus] = React.useState(false);
   return (
     <div className="relative group">
@@ -10,6 +22,7 @@ const Input = ({ label, name }: { label: string; name: string }) => {
       </label>
       <input
         type="text"
+        {...register(name, { required: required, pattern: pattern })}
         id={name}
         onFocus={() => setFocus(true)}
         onBlur={() => setFocus(false)}

@@ -8,6 +8,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import Input from "@/components/Input";
+import Contactus from "@/components/Contactus";
 const HireUs = () => {
   return (
     <main className="container">
@@ -73,76 +74,7 @@ const HireUs = () => {
             <p className="font-medium text-lg uppercase">© 2023 offtec</p>
           </div>
         </div>
-        <div className="flex flex-col gap-6 col-span-12 md:col-span-9">
-          <div className="flex flex-col gap-1">
-            <p className="  tracking-wide text-gray-500  uppercase">Hire us</p>
-            <h2 className="text-6xl  font-medium uppercase">
-              A project with offtec?
-            </h2>
-          </div>
-          <div className="flex flex-col gap-3">
-            <p className="text-sm font-medium  text-gray-500  ">Sevices</p>
-            <RadioGroup
-              defaultValue="Branding"
-              className="flex gap-3 flex-wrap"
-            >
-              {[
-                "Branding",
-                "UI/UX Design",
-                "Web Development",
-                "Mobile Development",
-                "Illustration",
-                "Motion Graphics",
-                "3D Design",
-                "Other",
-              ].map((item, index) => (
-                <Label
-                  htmlFor={item}
-                  key={index}
-                  className="flex font-normal flex-col text-xs items-center justify-center text-gray-500 bg-gray-100 rounded-full border-2 border-muted  px-6 py-2 hover:bg-accent hover:text-accent-foreground [&:has([data-state=checked])]:bg-black  [&:has([data-state=checked])]:text-white"
-                >
-                  <RadioGroupItem value={item} id={item} className="sr-only" />
-                  {item}
-                </Label>
-              ))}
-            </RadioGroup>
-          </div>
-          <div className="flex flex-col gap-3">
-            <p className="text-sm font-medium  text-gray-500  ">Your Budget</p>
-            <RadioGroup
-              defaultValue="More than 50K"
-              className="flex gap-3 flex-wrap"
-            >
-              {["2K-10K", "10K-20K", "20K-50K", "More than 50K"].map(
-                (item, index) => (
-                  <Label
-                    htmlFor={item}
-                    key={index}
-                    className="flex font-normal flex-col text-xs items-center justify-center text-gray-500 bg-gray-100 rounded-full border-2 border-muted  px-6 py-2 hover:bg-accent hover:text-accent-foreground [&:has([data-state=checked])]:bg-black  [&:has([data-state=checked])]:text-white"
-                  >
-                    <RadioGroupItem
-                      value={item}
-                      id={item}
-                      className="sr-only"
-                    />
-                    {item}
-                  </Label>
-                )
-              )}
-            </RadioGroup>
-          </div>
-          <div className="flex gap-6 flex-col md:flex-row">
-            <Input label="Your Name" name="name" />
-            <Input label="Your Email" name="email" />
-          </div>
-          <div>
-            <Input label="Project Details (Optional)" name="details" />
-          </div>
-
-          <button className="bg-black text-white flex items-center justify-center h-28 w-28 rounded-full  mx-auto">
-            Send
-          </button>
-        </div>
+        <Contactus />
       </div>
     </main>
   );
