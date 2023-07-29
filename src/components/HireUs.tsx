@@ -27,9 +27,9 @@ const HireUs = () => {
   return (
     <div className="relative ">
       <div
-        className={`fixed z-[3]
+        className={`fixed -z-[0]
         
-        w-8 h-8 rounded-full bg-white blur-lg transition-all  duration-0 ease-in-out hover:bg-primary
+        w-8 h-8 rounded-full bg-black blur-lg transition-all  duration-0 ease-in-out hover:bg-primary
         ${hovered ? "opacity-100" : "opacity-0"}
         `}
         style={{
@@ -45,7 +45,7 @@ const HireUs = () => {
           setHovered(true);
         }}
         onMouseLeave={() => setHovered(false)}
-        className="  px-8 backdrop-blur-3xl bg-black hover:shadow-2xl border-white  text-white relative  py-2 rounded-full font-semibold   transition-all duration-300 ease-in-out hover:drop-shadow-xl"
+        className="  px-8 backdrop-blur-3xl bg-gray-100 bg-opacity-50 hover:shadow-2xl border  text-black relative  py-2 rounded-full font-semibold   transition-all duration-300 ease-in-out hover:drop-shadow-xl"
       >
         HIRE US!
       </Link>{" "}
