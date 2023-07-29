@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { BsArrowRightShort } from "react-icons/bs";
 import {
@@ -58,10 +59,34 @@ const Footer = () => {
       <div className="py-10 flex justify-between flex-col md:flex-row gap-6">
         <div>
           <div className="flex gap-12">
-            <FaFacebookF className=" w-6 h-6" />
-            <FaTwitter className=" w-6 h-6" />
-            <FaLinkedinIn className=" w-6 h-6" />
-            <FaInstagram className=" w-6 h-6" />
+            <Link
+              href="https://www.instagram.com/offtecmedia/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebookF className=" w-6 h-6" />
+            </Link>
+            <Link
+              href="https://www.instagram.com/offtecmedia/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitter className=" w-6 h-6" />
+            </Link>
+            <Link
+              href="https://www.instagram.com/offtecmedia/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedinIn className=" w-6 h-6" />
+            </Link>
+            <Link
+              href="https://www.instagram.com/offtecmedia/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram className=" w-6 h-6" />
+            </Link>
           </div>
         </div>
         <div className="text-md font-semibold text-gray-400">
