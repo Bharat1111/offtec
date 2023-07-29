@@ -53,56 +53,61 @@ const Footer = () => {
         <p className="text-xl uppercase tracking-wide">Pricing</p>
       </div>
 
-      <form
-        className="flex gap-3 col-span-8 justify-center"
-        onSubmit={handleSubmit((data) => {
-          addData(data);
-        })}
-      >
-        <div className="border px-6 text-lg py-3 flex gap-3 items-center rounded-full">
-          <input
-            type="email"
-            placeholder="Enter your email"
-            className="outline-none bg-transparent w-full"
-            {...register("email", {
-              required: true,
-              pattern: /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/,
-            })}
-          />
-        </div>
-        <button
-          type="submit"
-          className="bg-white text-black px-6 py-3 rounded-full flex gap-2 items-center"
+      <div className="flex flex-col col-span-8 gap-3 justify-center">
+        <form
+          className="flex gap-3 justify-center max-w-full"
+          onSubmit={handleSubmit((data) => {
+            addData(data);
+          })}
         >
-          {loading ? (
-            <svg
-              className="animate-spin  h-5 w-5 text-black"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-            >
-              <circle
-                className="opacity-25"
-                cx="12"
-                cy="12"
-                r="10"
-                stroke="currentColor"
-                strokeWidth="4"
-              ></circle>
-              <path
-                className="opacity-75"
-                fill="currentColor"
-                d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
-              ></path>
-            </svg>
-          ) : success ? (
-            <p className="text-xs font-semibold">Subscribed</p>
-          ) : (
-            <p className="text-xs font-semibold">Subscribe</p>
-          )}
-          {/* <BsArrowRightShort /> */}
-        </button>
-      </form>
+          <div className="px-6 text-lg py-3 flex gap-3 items-center flex-col border-b border-gray-500 hover:border-white focus-within:border-white">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              className="outline-none bg-transparent w-full text-center"
+              {...register("email", {
+                required: true,
+                pattern: /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/,
+              })}
+            />
+          </div>
+          <button
+            type="submit"
+            className="bg-white text-black px-6 py-3 rounded-full flex gap-2 items-center"
+          >
+            {loading ? (
+              <svg
+                className="animate-spin  h-5 w-5 text-black"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  className="opacity-25"
+                  cx="12"
+                  cy="12"
+                  r="10"
+                  stroke="currentColor"
+                  strokeWidth="4"
+                ></circle>
+                <path
+                  className="opacity-75"
+                  fill="currentColor"
+                  d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
+                ></path>
+              </svg>
+            ) : success ? (
+              <p className="text-xs font-semibold">Subscribed</p>
+            ) : (
+              <p className="text-xs font-semibold">Subscribe</p>
+            )}
+            {/* <BsArrowRightShort /> */}
+          </button>
+        </form>
+        <p className="text-gray-500 text-xs text-center">
+          SIGN UP TO STAY CONNECTED AND TO HEAR ABOUT WHAT WE ARE WORKING ON.
+        </p>
+      </div>
 
       <div className="flex flex-col col-span-2">
         <div className="flex gap-3">
