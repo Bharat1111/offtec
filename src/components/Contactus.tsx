@@ -74,7 +74,7 @@ const Contactus = () => {
                 <Label
                   htmlFor={item}
                   key={index}
-                  className="flex font-normal flex-col text-xs items-center justify-center text-gray-500 bg-gray-100 rounded-full border-2 border-muted  px-6 py-2 hover:bg-accent hover:text-accent-foreground [&:has([data-state=checked])]:bg-black  [&:has([data-state=checked])]:text-white"
+                  className="flex font-normal hover:shadow-inner cursor-pointer flex-col text-xs items-center justify-center text-gray-500 bg-gray-100 rounded-full border-2 border-muted  px-6 py-2 hover:bg-accent hover:text-accent-foreground [&:has([data-state=checked])]:bg-black  [&:has([data-state=checked])]:text-white"
                 >
                   <RadioGroupItem value={item} id={item} className="sr-only" />
                   {item}
@@ -102,7 +102,7 @@ const Contactus = () => {
                   <Label
                     htmlFor={item}
                     key={index}
-                    className="flex font-normal flex-col text-xs items-center justify-center text-gray-500 bg-gray-100 rounded-full border-2 border-muted  px-6 py-2 hover:bg-accent hover:text-accent-foreground [&:has([data-state=checked])]:bg-black  [&:has([data-state=checked])]:text-white"
+                    className="flex font-normal flex-col hover:shadow-inner cursor-pointer text-xs items-center justify-center text-gray-500 bg-gray-100 rounded-full border-2 border-muted  px-6 py-2 hover:bg-accent hover:text-accent-foreground [&:has([data-state=checked])]:bg-black  [&:has([data-state=checked])]:text-white"
                   >
                     <RadioGroupItem
                       value={item}
