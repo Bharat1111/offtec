@@ -19,9 +19,9 @@ const Footer = () => {
             <input
               type="text"
               placeholder="Email address"
-              className="bg-white outline-none border text-black p-2 text-md w-64"
+              className="bg-black border-white outline-none border p-2 text-md w-64"
             />
-            <button className="p-3 bg-black">
+            <button className="p-3 bg-white text-black">
               <BsArrowRightShort className="  text-2xl" />
             </button>
           </div>
