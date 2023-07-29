@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="px-[6%] container bg-black py-8   items-center  grid grid-cols-12   justify-between  text-white border-t border-t-slate-100">
+    <footer className="px-[6%] container bg-black py-8   items-center gap-6 md:gap-0 justify-center  flex flex-col md:grid md:grid-cols-12   md:justify-between  text-white border-t border-t-slate-100">
       <h4 className="text-xl font-bold col-span-2 ">OffTec</h4>
 
       <div className="flex gap-3 col-span-8  justify-center">
