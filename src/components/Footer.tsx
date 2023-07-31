@@ -44,18 +44,9 @@ const Footer = () => {
 
   return (
     <footer className="px-[6%] container bg-black py-8   items-center gap-6 md:gap-0 justify-center  flex flex-col md:grid md:grid-cols-12   md:justify-around  text-white border-t border-t-slate-100">
-      <div className="col-span-2">
-        <h1 className="text-base font-bold text-gray-500 pb-3 uppercase">
-          Off-Tec
-        </h1>
-        <p className="text-xl uppercase tracking-wide">Services</p>
-        <p className="text-xl uppercase tracking-wide">Projects</p>
-        <p className="text-xl uppercase tracking-wide">Pricing</p>
-      </div>
-
-      <div className="flex flex-col col-span-8 gap-3 justify-center">
+      <div className="flex flex-col col-span-7 gap-3">
         <form
-          className="flex gap-3 justify-center max-w-full"
+          className="flex gap-3 max-w-full"
           onSubmit={handleSubmit((data) => {
             addData(data);
           })}
@@ -104,29 +95,39 @@ const Footer = () => {
             {/* <BsArrowRightShort /> */}
           </button>
         </form>
-        <p className="text-gray-500 text-xs text-center">
+        <p className="text-gray-500 text-xs">
           SIGN UP TO STAY CONNECTED AND TO HEAR ABOUT WHAT WE ARE WORKING ON.
         </p>
       </div>
-
-      <div className="flex flex-col col-span-2 justify-between">
-        <div className="flex gap-3">
-          <Link href={`/`} className="bg-white text-black p-2 rounded-full">
-            <FaTwitter />
-          </Link>
-          <Link href={`/`} className="bg-white text-black p-2 rounded-full">
-            <FaInstagram />
-          </Link>
-          <Link href={`/`} className="bg-white text-black p-2 rounded-full">
-            <FaLinkedinIn />
-          </Link>
-          <Link href={`/`} className="bg-white text-black p-2 rounded-full">
-            <FaFacebookF />
-          </Link>
+      <div className="flex flex-row gap-6 col-span-5 justify-between">
+        <div className="col-span-2">
+          <h1 className="text-base font-bold text-gray-500 pb-3 uppercase">
+            Off-Tec
+          </h1>
+          <p className="text-xl uppercase tracking-wide">Services</p>
+          <p className="text-xl uppercase tracking-wide">Projects</p>
+          <p className="text-xl uppercase tracking-wide">Pricing</p>
         </div>
-        <div className="pt-3 w-full">
-          <p className="text-xs text-gray-500">© 2023 OffTec</p>
-          <p className="text-sm text-white">offtechmedia@gmail.com</p>
+
+        <div className="flex flex-col col-span-2 justify-center">
+          <div className="flex gap-3">
+            <Link href={`/`} className="bg-white text-black p-2 rounded-full">
+              <FaTwitter />
+            </Link>
+            <Link href={`/`} className="bg-white text-black p-2 rounded-full">
+              <FaInstagram />
+            </Link>
+            <Link href={`/`} className="bg-white text-black p-2 rounded-full">
+              <FaLinkedinIn />
+            </Link>
+            <Link href={`/`} className="bg-white text-black p-2 rounded-full">
+              <FaFacebookF />
+            </Link>
+          </div>
+          <div className="pt-3 w-full">
+            <p className="text-xs text-gray-500">© 2023 OffTec</p>
+            <p className="text-sm text-white">offtechmedia@gmail.com</p>
+          </div>
         </div>
       </div>
     </footer>
