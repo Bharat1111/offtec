@@ -26,19 +26,19 @@ const Server = () => {
           <AccordionContent>
             At our creative development wing, we harness innovation and
             imagination to design unique digital experiences tailored to your
-            brand's identity. Our team of creative experts collaborates closely
-            with you to understand your vision, bringing it to life through
-            imaginative concepts and cutting-edge design.
+            brand&apos;s identity. Our team of creative experts collaborates
+            closely with you to understand your vision, bringing it to life
+            through imaginative concepts and cutting-edge design.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="Animation">
           <AccordionTrigger>Animation</AccordionTrigger>
           <AccordionContent>
-            Elevate your brand's storytelling with captivating animations that
-            breathe life into your digital presence. Our skilled animators
+            Elevate your brand&apos;s storytelling with captivating animations
+            that breathe life into your digital presence. Our skilled animators
             create engaging motion graphics, animated logos, and visually
             appealing content to effectively communicate your brand's message
-            and capture your audience's attention.
+            and capture your audience&apos;s attention.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="Landing pages">
@@ -54,11 +54,11 @@ const Server = () => {
         <AccordionItem value="Perform ance optimiz ation">
           <AccordionTrigger>Performance optimization</AccordionTrigger>
           <AccordionContent>
-            In today's fast-paced digital world, website performance is crucial
-            for user satisfaction and search engine rankings. Our performance
-            optimization services aim to enhance your website's speed,
-            responsiveness, and overall performance, providing visitors with a
-            smooth and engaging browsing experience.
+            In today&apos;s fast-paced digital world, website performance is
+            crucial for user satisfaction and search engine rankings. Our
+            performance optimization services aim to enhance your website&apos;s
+            speed, responsiveness, and overall performance, providing visitors
+            with a smooth and engaging browsing experience.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="Seo">
