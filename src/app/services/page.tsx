@@ -14,37 +14,71 @@ const Server = () => {
         <AccordionItem value="Front End">
           <AccordionTrigger>Front End</AccordionTrigger>
           <AccordionContent>
-            Yes. It adheres to the WAI-ARIA design pattern.
+            Our expert frontend developers craft visually stunning and
+            responsive user interfaces that ensure a seamless user experience.
+            Utilizing the latest technologies and best practices, we transform
+            design concepts into interactive, intuitive, and dynamic websites
+            that leave a lasting impression on your visitors.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="Creative Development">
           <AccordionTrigger>Creative Development</AccordionTrigger>
           <AccordionContent>
-            Yes. It adheres to the WAI-ARIA design pattern.
+            At our creative development wing, we harness innovation and
+            imagination to design unique digital experiences tailored to your
+            brand's identity. Our team of creative experts collaborates closely
+            with you to understand your vision, bringing it to life through
+            imaginative concepts and cutting-edge design.
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="Anima tion">
+        <AccordionItem value="Animation">
           <AccordionTrigger>Animation</AccordionTrigger>
           <AccordionContent>
-            Yes. It adheres to the WAI-ARIA design pattern.
+            Elevate your brand's storytelling with captivating animations that
+            breathe life into your digital presence. Our skilled animators
+            create engaging motion graphics, animated logos, and visually
+            appealing content to effectively communicate your brand's message
+            and capture your audience's attention.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="Landing pages">
           <AccordionTrigger>Landing pages</AccordionTrigger>
           <AccordionContent>
-            Yes. It adheres to the WAI-ARIA design pattern.
+            Powerful landing pages are essential for converting visitors into
+            customers. Our team specializes in crafting high-converting landing
+            pages that are optimized for conversions. By focusing on compelling
+            design, persuasive copy, and intuitive user flow, we ensure your
+            landing pages generate tangible results for your business.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="Perform ance optimiz ation">
           <AccordionTrigger>Performance optimization</AccordionTrigger>
           <AccordionContent>
-            Yes. It adheres to the WAI-ARIA design pattern.
+            In today's fast-paced digital world, website performance is crucial
+            for user satisfaction and search engine rankings. Our performance
+            optimization services aim to enhance your website's speed,
+            responsiveness, and overall performance, providing visitors with a
+            smooth and engaging browsing experience.
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="Animat ion2">
-          <AccordionTrigger>Animation</AccordionTrigger>
+        <AccordionItem value="Seo">
+          <AccordionTrigger>SEO</AccordionTrigger>
           <AccordionContent>
-            Yes. It adheres to the WAI-ARIA design pattern.
+            Drive organic traffic and improve your online visibility with our
+            comprehensive SEO strategies. Our SEO experts employ industry best
+            practices to optimize your website for search engines, increase
+            rankings, and attract targeted traffic that converts into loyal
+            customers.
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="Social media marketing">
+          <AccordionTrigger>Social media marketing</AccordionTrigger>
+          <AccordionContent>
+            Our social media experts harness the power of popular social
+            platforms to engage your audience, increase brand awareness, and
+            drive meaningful interactions. From content creation to strategic
+            campaigns, we optimize your social media presence to deliver
+            measurable results.
           </AccordionContent>
         </AccordionItem>
       </ServicesWrapper>
