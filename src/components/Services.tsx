@@ -13,7 +13,8 @@ const ServicesWrapper = ({ children }: { children: React.ReactNode }) => {
     | "Anima tion"
     | "Landing pages"
     | "Perform ance optimiz ation"
-    | "Animat ion2"
+    | "SEO"
+    | "Social Media Marketing"
     | "Services"
     | ""
   >("Services");
