@@ -10,14 +10,14 @@ const Navbar = () => {
       name: "Services",
       path: "/services",
     },
-    {
-      name: "Projects",
-      path: "/projects",
-    },
-    {
-      name: "Pricing",
-      path: "/pricing",
-    },
+    // {
+    //   name: "Projects",
+    //   path: "/projects",
+    // },
+    // {
+    //   name: "Pricing",
+    //   path: "/pricing",
+    // },
   ];
 
   const pathname = usePathname();
@@ -29,12 +29,12 @@ const Navbar = () => {
   return (
     <header className="border-b  sticky top-0 bg-white z-50">
       <nav className="px-[6%] container  py-4 flex md:grid  md:grid-cols-12 justify-between  items-center  ">
-        <div className="flex gap-12 items-center col-span-2 ">
+        <div className="flex gap-12 items-center col-span-8">
           <p className="tracking-wide font-bold text-2xl">
             <Link href={`/`}>OffTec</Link>
           </p>
         </div>
-        <div className="md:flex gap-8 text-sm items-center justify-center hidden col-span-8">
+        <div className="md:flex gap-8 text-sm items-center justify-center hidden col-span-4">
           {links.map((link) => (
             <Link
               href={link.path}
@@ -51,9 +51,9 @@ const Navbar = () => {
               {link.name}
             </Link>
           ))}
-        </div>
-        <div className="md:flex gap-8 text-sm items-end justify-end hidden col-span-2">
-          <HireUs />
+          <div className="md:flex gap-8 text-sm items-end justify-end hidden col-span-2">
+            <HireUs />
+          </div>
         </div>
         <button
           onClick={() => setOpen(!open)}
