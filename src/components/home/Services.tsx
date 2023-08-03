@@ -5,6 +5,44 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { MdKeyboardArrowRight } from "react-icons/md";
 
+const services = [
+  {
+    name: "Front End",
+    description:
+      "Our expert frontend developers craft visually stunning and responsive user interfaces that ensure a seamless user experience.",
+  },
+  {
+    name: "Creative Development",
+    description:
+      "At our creative development wing, we harness innovation and imagination to design unique digital experiences tailored to your brand's identity. ",
+  },
+  {
+    name: "Animation",
+    description:
+      "Elevate your brand's storytelling with captivating animations that breathe life into your digital presence.",
+  },
+  {
+    name: "Landing Pages",
+    description:
+      "Powerful landing pages are essential for converting visitors into customers.",
+  },
+  {
+    name: "Performance Optimization",
+    description:
+      "In today's fast-paced digital world, website performance is crucial for user satisfaction and search engine rankings.",
+  },
+  {
+    name: "SEO (Search Engine Optimization)",
+    description:
+      "Drive organic traffic and improve your online visibility with our comprehensive SEO strategies.",
+  },
+  {
+    name: "Social Media Marketing",
+    description:
+      "Our social media experts harness the power of popular social platforms to engage your audience, increase brand awareness, and drive meaningful interactions.",
+  },
+];
+
 const Services = () => {
   const ref = React.useRef<any>(null);
   const [current, setCurrent] = React.useState(0);
@@ -60,7 +98,7 @@ const Services = () => {
           },
         }}
       >
-        {[1, 1, 1, 1, 1, 1, 1].map((item, i) => (
+        {services.map((item, i) => (
           <SwiperSlide
             className={`border  rounded-lg
         ${i === 0 ? (current <= 2 ? "ml-[6%]" : "") : ""}
@@ -70,11 +108,8 @@ const Services = () => {
             key={i}
           >
             <div className="p-5">
-              <h3 className=" font-semibold">UIUX Design</h3>
-              <p className="text-gray-500 text-xs ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisq
-                voluptatum, etc,
-              </p>
+              <h3 className=" font-semibold">{item.name}</h3>
+              <p className="text-gray-500 text-xs ">{item.description}</p>
             </div>
             <Image
               width={500}
