@@ -106,16 +106,28 @@ const Footer = () => {
       </div>{" "}
       <div className="flex flex-col col-span-4  justify-center items-center">
         <div className="flex gap-3">
-          <Link href={`/`} className="bg-white text-black p-2 rounded-full">
+          <Link
+            href={`https://www.instagram.com/offtecmedia/`}
+            className="bg-white text-black p-2 rounded-full"
+          >
             <FaTwitter />
           </Link>
-          <Link href={`/`} className="bg-white text-black p-2 rounded-full">
+          <Link
+            href={`https://www.instagram.com/offtecmedia/`}
+            className="bg-white text-black p-2 rounded-full"
+          >
             <FaInstagram />
           </Link>
-          <Link href={`/`} className="bg-white text-black p-2 rounded-full">
+          <Link
+            href={`https://www.instagram.com/offtecmedia/`}
+            className="bg-white text-black p-2 rounded-full"
+          >
             <FaLinkedinIn />
           </Link>
-          <Link href={`/`} className="bg-white text-black p-2 rounded-full">
+          <Link
+            href={`https://www.instagram.com/offtecmedia/`}
+            className="bg-white text-black p-2 rounded-full"
+          >
             <FaFacebookF />
           </Link>
         </div>
