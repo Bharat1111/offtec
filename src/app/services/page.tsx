@@ -37,8 +37,8 @@ const Server = () => {
             Elevate your brand&apos;s storytelling with captivating animations
             that breathe life into your digital presence. Our skilled animators
             create engaging motion graphics, animated logos, and visually
-            appealing content to effectively communicate your brand's message
-            and capture your audience&apos;s attention.
+            appealing content to effectively communicate your brand&apos;s
+            message and capture your audience&apos;s attention.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="Landing pages">
