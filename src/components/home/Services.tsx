@@ -93,10 +93,10 @@ const Services = () => {
         className="w-full "
         breakpoints={{
           364: {
-            slidesPerView: 1.8,
+            slidesPerView: 1.2,
           },
           640: {
-            slidesPerView: 2.5,
+            slidesPerView: 1.5,
           },
           768: {
             slidesPerView: 3.5,
