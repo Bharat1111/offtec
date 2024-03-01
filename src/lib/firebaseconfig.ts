@@ -6,12 +6,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBn6yZxUVPrK371R8MLPtZiEqVTw023hSc",
-  authDomain: "offtech-dccfe.firebaseapp.com",
-  projectId: "offtech-dccfe",
-  storageBucket: "offtech-dccfe.appspot.com",
-  messagingSenderId: "951499029071",
-  appId: "1:951499029071:web:f643ef6c1715e87661483a",
+  apiKey: "AIzaSyDmUxBNDpTBLDOl0otpH_goOKk4VvzEC3c",
+  authDomain: "offtec-b6328.firebaseapp.com",
+  projectId: "offtec-b6328",
+  storageBucket: "offtec-b6328.appspot.com",
+  messagingSenderId: "65131480777",
+  appId: "1:65131480777:web:c992d33cab639bf18baf18"
 };
 
 // Initialize Firebase
