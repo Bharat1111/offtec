@@ -35,28 +35,28 @@ const HireUs = () => {
                 Contacts
               </p>
               <h2 className="text-xl font-semibold uppercase">
-                HEY@offtec.com
+                you@offtech.digital
               </h2>
             </div>
             <div className="flex flex-col gap-3">
               <p className="  tracking-wide text-gray-500  ">Follow</p>
               <div className="flex gap-3 items-center">
                 <Link
-                  href="https://www.instagram.com/offtecmedia/"
+                  href="https://www.instagram.com/offtechmedia/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <AiFillInstagram className="text-xl " />
                 </Link>
                 <Link
-                  href="https://www.instagram.com/offtecmedia/"
+                  href="https://www.instagram.com/offtechmedia/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <AiOutlineTwitter className="text-xl " />
                 </Link>
                 <Link
-                  href="https://www.instagram.com/offtecmedia/"
+                  href="https://www.instagram.com/offtechmedia/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

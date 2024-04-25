@@ -14,7 +14,7 @@ export default function Home() {
         </p>
         <div>
           <h1 className="text-7xl md:text-8xl font-semibold ">
-            OffTec Digital
+            OffTech Digital
             <div className="flex gap-x-48 flex-col md:flex-row items-start justify-between md:items-center">
               <p className="">Agency </p>
               <Link

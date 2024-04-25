@@ -31,7 +31,7 @@ const Navbar = () => {
       <nav className="px-[6%] container  py-4 flex  justify-between  items-center  ">
         <div className="flex gap-12 items-center col-span-8">
           <p className="tracking-wide font-bold text-2xl">
-            <Link href={`/`}>OffTec</Link>
+            <Link href={`/`}>OffTech</Link>
           </p>
         </div>
         <div className="md:flex gap-8 text-sm items-center justify-center hidden col-span-4">

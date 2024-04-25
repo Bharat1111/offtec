@@ -47,7 +47,7 @@ const Contactus = () => {
       <div className="flex flex-col gap-1">
         <p className="  tracking-wide text-gray-500  uppercase">Hire us</p>
         <h2 className="text-6xl  font-medium uppercase">
-          A project with offtec?
+          A project with offtech?
         </h2>
       </div>
       <div className="flex flex-col gap-3">

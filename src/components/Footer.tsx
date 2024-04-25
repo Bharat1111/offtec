@@ -107,25 +107,25 @@ const Footer = () => {
       <div className="flex flex-col col-span-4  justify-center items-center">
         <div className="flex gap-3">
           <Link
-            href={`https://www.instagram.com/offtecmedia/`}
+            href={`https://www.instagram.com/offtechmedia/`}
             className="bg-white text-black p-2 rounded-full"
           >
             <FaTwitter />
           </Link>
           <Link
-            href={`https://www.instagram.com/offtecmedia/`}
+            href={`https://www.instagram.com/offtechmedia/`}
             className="bg-white text-black p-2 rounded-full"
           >
             <FaInstagram />
           </Link>
           <Link
-            href={`https://www.instagram.com/offtecmedia/`}
+            href={`https://www.instagram.com/offtechmedia/`}
             className="bg-white text-black p-2 rounded-full"
           >
             <FaLinkedinIn />
           </Link>
           <Link
-            href={`https://www.instagram.com/offtecmedia/`}
+            href={`https://www.instagram.com/offtechmedia/`}
             className="bg-white text-black p-2 rounded-full"
           >
             <FaFacebookF />
