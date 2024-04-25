@@ -71,7 +71,7 @@ const HireUs = () => {
               forward-thinking brands .Creating a product that connects with
               your audience is essential to success in today’s digital world.
             </p>
-            <p className="font-medium text-lg uppercase">© 2023 offtec</p>
+            <p className="font-medium text-lg uppercase">© 2023 offtech</p>
           </div>
         </div>
         <Contactus />

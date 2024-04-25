@@ -10,7 +10,7 @@ const popins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Off Tec",
+  title: "Off Tech",
   description: "Digital Marketing Agency",
 };
 

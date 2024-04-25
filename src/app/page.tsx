@@ -7,7 +7,7 @@ import Client from "@/components/Client";
 
 export default function Home() {
   return (
-    <main className="flex  flex-col  container ">
+    <main className="flex  flex-col   ">
       <div className="flex flex-col gap-2 py-8 md:py-14 px-[6%]">
         <p className="text-gray-500 text-sm ml-2 ">
           Introducing a new era of creativity
@@ -27,11 +27,11 @@ export default function Home() {
           </h1>
         </div>
       </div>
-      <div className="2xl:px-[6%]">
+      <div className="">
         <Image
           src={mainImg}
           alt="Picture of the author"
-          className="w-full aspect-[16/15] md:aspect-[16/6]  object-cover 2xl:rounded-lg"
+          className="w-full aspect-[16/15] md:aspect-[16/6]  object-cover "
         />
       </div>
       <Services />
