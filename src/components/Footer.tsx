@@ -43,7 +43,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="px-[6%] container bg-black py-8   items-center gap-6 md:gap-0 justify-center  flex flex-col md:grid md:grid-cols-12   md:justify-around  text-white border-t border-t-gray-600">
+    <footer className="px-[6%]  bg-black py-8   items-center gap-6 md:gap-0 justify-center  flex flex-col md:grid md:grid-cols-12   md:justify-around  text-white border-t border-t-gray-600">
       <div className="flex flex-col col-span-4 gap-3">
         <form
           className="flex gap-3 max-w-full flex-col items-center"
@@ -132,7 +132,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="pt-3 text-center">
-          <p className="text-xs text-gray-500">© 2023 OffTec</p>
+          <p className="text-xs text-gray-500">© 2023 OffTech</p>
           <p className="text-sm text-white">offtechmedia@gmail.com</p>
         </div>
       </div>

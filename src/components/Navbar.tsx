@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <header className="border-b  sticky top-0 bg-white z-50">
-      <nav className="px-[6%] container  py-4 flex  justify-between  items-center  ">
+      <nav className="px-[6%]   py-4 flex  justify-between  items-center  ">
         <div className="flex gap-12 items-center col-span-8">
           <p className="tracking-wide font-bold text-2xl">
             <Link href={`/`}>OffTech</Link>
