@@ -5,9 +5,10 @@ const HireUs = () => {
   return (
     <Link
       href={`/hireus`}
-      className="  px-8 backdrop-blur-3xl bg-gray-100 bg-opacity-50 hover:shadow-inner border  text-black relative  py-2 rounded-full font-semibold   transition-all duration-300 ease-in-out "
+      className="p-5 flex bg-[#1d1d1f] items-center text-white rounded-full gap-x-8"
     >
-      HIRE US!
+      <p className="text-[11px] font-semibold">Let's talk</p>
+      <div className="bg-white w-1 h-1 rounded-full"></div>
     </Link>
   );
 };
